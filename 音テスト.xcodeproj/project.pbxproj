@@ -14,6 +14,14 @@
 		E90BE43B1A30743100AC78D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90BE43A1A30743100AC78D0 /* Images.xcassets */; };
 		E90BE43E1A30743100AC78D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E90BE43C1A30743100AC78D0 /* LaunchScreen.xib */; };
 		E90BE44A1A30743100AC78D0 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BE4491A30743100AC78D0 /* ____Tests.m */; };
+		E90BE4541A30747B00AC78D0 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E90BE4531A30747B00AC78D0 /* a.mp3 */; };
+		E90BE4561A3074A300AC78D0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E90BE4551A3074A300AC78D0 /* 3.png */; };
+		E90BE4581A30755200AC78D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90BE4571A30755200AC78D0 /* AVFoundation.framework */; };
+		E90BE45A1A3079D200AC78D0 /* 8d4d125f0232496f26479b9758daa270.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E90BE4591A3079D200AC78D0 /* 8d4d125f0232496f26479b9758daa270.jpg */; };
+		E90BE45C1A307A4300AC78D0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E90BE45B1A307A4300AC78D0 /* 2.png */; };
+		E90BE4601A307C1A00AC78D0 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E90BE45D1A307C1A00AC78D0 /* A.mp3 */; };
+		E90BE4611A307C1A00AC78D0 /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E90BE45E1A307C1A00AC78D0 /* B.mp3 */; };
+		E90BE4621A307C1A00AC78D0 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E90BE45F1A307C1A00AC78D0 /* C.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,14 @@
 		E90BE4431A30743100AC78D0 /* 音テストTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音テストTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90BE4481A30743100AC78D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E90BE4491A30743100AC78D0 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		E90BE4531A30747B00AC78D0 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = a.mp3; path = "../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/a.mp3"; sourceTree = "<group>"; };
+		E90BE4551A3074A300AC78D0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = "../../Touch Stamp/3.png"; sourceTree = "<group>"; };
+		E90BE4571A30755200AC78D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E90BE4591A3079D200AC78D0 /* 8d4d125f0232496f26479b9758daa270.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8d4d125f0232496f26479b9758daa270.jpg; path = ../../8d4d125f0232496f26479b9758daa270.jpg; sourceTree = "<group>"; };
+		E90BE45B1A307A4300AC78D0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = "../../Touch Stamp/2.png"; sourceTree = "<group>"; };
+		E90BE45D1A307C1A00AC78D0 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = A.mp3; path = ../../../Downloads/A.mp3; sourceTree = "<group>"; };
+		E90BE45E1A307C1A00AC78D0 /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B.mp3; path = ../../../Downloads/B.mp3; sourceTree = "<group>"; };
+		E90BE45F1A307C1A00AC78D0 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C.mp3; path = ../../../Downloads/C.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90BE4581A30755200AC78D0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 		E90BE4211A30743100AC78D0 = {
 			isa = PBXGroup;
 			children = (
+				E90BE4571A30755200AC78D0 /* AVFoundation.framework */,
 				E90BE42C1A30743100AC78D0 /* 音テスト */,
 				E90BE4461A30743100AC78D0 /* 音テストTests */,
 				E90BE42B1A30743100AC78D0 /* Products */,
@@ -96,6 +114,13 @@
 		E90BE42D1A30743100AC78D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E90BE45D1A307C1A00AC78D0 /* A.mp3 */,
+				E90BE45E1A307C1A00AC78D0 /* B.mp3 */,
+				E90BE45F1A307C1A00AC78D0 /* C.mp3 */,
+				E90BE45B1A307A4300AC78D0 /* 2.png */,
+				E90BE4591A3079D200AC78D0 /* 8d4d125f0232496f26479b9758daa270.jpg */,
+				E90BE4551A3074A300AC78D0 /* 3.png */,
+				E90BE4531A30747B00AC78D0 /* a.mp3 */,
 				E90BE42E1A30743100AC78D0 /* Info.plist */,
 				E90BE42F1A30743100AC78D0 /* main.m */,
 			);
@@ -199,8 +224,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90BE4561A3074A300AC78D0 /* 3.png in Resources */,
+				E90BE45A1A3079D200AC78D0 /* 8d4d125f0232496f26479b9758daa270.jpg in Resources */,
+				E90BE45C1A307A4300AC78D0 /* 2.png in Resources */,
+				E90BE4611A307C1A00AC78D0 /* B.mp3 in Resources */,
+				E90BE4541A30747B00AC78D0 /* a.mp3 in Resources */,
+				E90BE4601A307C1A00AC78D0 /* A.mp3 in Resources */,
 				E90BE4391A30743100AC78D0 /* Main.storyboard in Resources */,
 				E90BE43E1A30743100AC78D0 /* LaunchScreen.xib in Resources */,
+				E90BE4621A307C1A00AC78D0 /* C.mp3 in Resources */,
 				E90BE43B1A30743100AC78D0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
